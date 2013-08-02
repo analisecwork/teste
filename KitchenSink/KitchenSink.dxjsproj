@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>4c5c859d-90ed-43bf-87fe-e33856cd5e8e</ProjectGuid>
+    <AutoAssignPort>True</AutoAssignPort>
+    <RunInSimulator>True</RunInSimulator>
+    <ApplicationPage>index.html</ApplicationPage>
+    <Name>KitchenSink</Name>
+    <RootNamespace>KitchenSink</RootNamespace>
+    <ScreenOrientation>Portrait</ScreenOrientation>
+    <ApplicationTitle>KitchenSink</ApplicationTitle>
+    <BundleIdentifier>KitchenSink</BundleIdentifier>
+    <WhiteList>*</WhiteList>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="content\" />
+    <Folder Include="content\images\" />
+    <Folder Include="content\images\gallery\" />
+    <Folder Include="content\images\navigation\" />
+    <Folder Include="css\" />
+    <Folder Include="data\" />
+    <Folder Include="js\" />
+    <Folder Include="layouts\" />
+    <Folder Include="layouts\Empty\" />
+    <Folder Include="layouts\SlideOut\" />
+    <Folder Include="views\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.config.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="app.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\01.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\02.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\03.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\04.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\05.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\06.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\07.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\08.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\09.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\10.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\11.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\12.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\13.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\14.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\15.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\16.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\demo-logo.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\dx-logo.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\gallery\boats.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\gallery\cherry.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\gallery\country.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\gallery\field.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\gallery\headphone.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\gallery\keyboard.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\gallery\ny.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\gallery\orange.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\gallery\palms.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\gallery\sunrise.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\gallery\sunset.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\gallery\town.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\navigation\icon-home.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\navigation\icon-image.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\navigation\icon-message.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\navigation\icon-search.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\navigation\icon-user.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\overlay-background.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="content\images\popup-background.jpg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\dx.android.holo-dark.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\dx.common.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\dx.ios.default.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="css\dx.win8.black.small.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="data\db.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="index.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\dx.phonejs.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\globalize.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\globalize.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\jquery-1.9.1.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\jquery-1.9.1.min.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\knockout-2.2.1.debug.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="js\knockout-2.2.1.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="layouts\Empty\EmptyLayout.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="layouts\Empty\EmptyLayout.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="layouts\Empty\EmptyLayout.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="layouts\SlideOut\SlideOutLayout.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="layouts\SlideOut\SlideOutLayout.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="layouts\SlideOut\SlideOutLayout.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Form.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Form.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Form.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Gallery.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Gallery.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Gallery.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Home.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Home.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Home.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\IconSet.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\IconSet.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\IconSet.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Lists.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Lists.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Lists.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Maps.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Maps.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Maps.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Navigation.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Navigation.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Navigation.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Overlays.css">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Overlays.html">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="views\Overlays.js">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <Target Name="Build">
+    <!--
+    <Message Text="'$(MSBuildToolsPath)'"></Message>
+    -->
+    <Message Text="Build JSProject '$(MSBuildProjectFile)':" Importance="high"></Message>
+    <Message Text="Copying refenecses to output dir..." Importance="high" />
+    <MSBuild Targets="Build" Projects="@(ProjectReference)" Properties="OutputPath=$([System.IO.Path]::GetFullPath('$(OutputPath)'))"></MSBuild>
+    <Message Text="Copying files to output dir..." Importance="high" />
+    <Copy SourceFiles="@(Content)" DestinationFiles="@(Content-&gt;'$(OutputPath)%(RelativeDir)%(Filename)%(Extension)')" />
+    <Message Text="Finished Build JSProject '$(MSBuildProjectFile)'." Importance="high"></Message>
+  </Target>
+  <Target Name="CreateManifestResourceNames" Condition="'@(ResxWithNoCulture)@(ResxWithCulture)@(NonResxWithNoCulture)@(NonResxWithCulture)'!=''" />
+  <Target Name="Rebuild" DependsOnTargets="Clean;Build"></Target>
+  <Target Name="Clean">
+    <!--
+    <Message Text="Cleaning Output files..." Importance="high" />
+    <Delete Files="@([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+    -->
+    <Message Text="Cleaning Output dir ($([System.IO.Path]::GetFullPath('$(OutputPath)')))..." Importance="high" />
+    <RemoveDir Directories="$([System.IO.Path]::GetFullPath('$(OutputPath)'))" />
+  </Target>
+</Project>
